@@ -1,0 +1,18 @@
+/* Aplica a imagem de fundo no body inteiro */
+body {
+  margin: 0; /* Remove espaçamento padrão */
+  height: 100vh; /* Garante que ocupe toda a altura da tela */
+  
+  background-image: url('imagens/ftcafe.jpg'); /* Caminho correto */
+  background-size: cover;      /* Faz a imagem preencher toda a tela */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-position: center;  /* Centraliza a imagem */
+  
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
