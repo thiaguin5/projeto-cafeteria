@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exemplo de Fundo</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Bella Paulista — Modelo</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
 </head>
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
-  <p></p>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Bella Paulista</div>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>O Sabor da Tradição</h1>
+            <p>Padaria e confeitaria artesanal 24 horas.</p>
+            <a href="#produtos" class="btn">Ver Cardápio</a>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772" alt="Pães">
+                <h3>Pães Artesanais</h3>
+                <p>Crocantes, fresquinhos e feitos diariamente.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Café">
+                <h3>Cafeteria</h3>
+                <p>Cafés especiais preparados na hora.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" alt="Doces">
+                <h3>Confeitaria</h3>
+                <p>Doces clássicos e modernos para todos os gostos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre">
+        <div class="texto">
+            <h2>Sobre Nós</h2>
+            <p>
+                Somos uma padaria tradicional inspirada no estilo paulistano,
+                com produtos artesanais, atendimento 24h e variedade única.
+            </p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1524350876685-274059332603" alt="">
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu email">
+            <textarea placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p> Modelo feito por: Daniel, Thiago, Julia, Victor</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
