@@ -1,4 +1,4 @@
-// Exemplo simples: animação suave ao clicar no menu
+
 document.querySelectorAll("nav a").forEach(a => {
     a.addEventListener("click", e => {
         e.preventDefault();
