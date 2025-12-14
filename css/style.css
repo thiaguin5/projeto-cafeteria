@@ -479,4 +479,236 @@ h1{
   object-fit: cover; /* não distorce */
   border-radius: 10px;
 }
+/*Cardapio de Bebidas*/
+.container-bebidas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.cardapio-listaBebidas {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardapio-listaBebidas h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-listaBebidas ul {
+    list-style: none;
+}
+
+.cardapio-listaBebidas li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.cardapio-listaBebidas .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.cardapio-listaBebidas2 {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardapio-listaBebidas2 h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-listaBebidas2 ul {
+    list-style: none;
+}
+
+.cardapio-listaBebidas2 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.cardapio-listaBebidas2 .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.cardapio-listaBebidas3 {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.cardapio-listaBebidas3 h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-listaBebidas3 ul {
+    list-style: none;
+}
+
+.cardapio-listaBebidas3 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+    
+}
+
+.cardapio-listaBebidas3 .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.coluna-cardapiosBebidas {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+.imagens-bebidas {
+  display: flex;
+  flex-direction: column; /* uma em cima da outra */
+  align-items: flex-start; /* lado esquerdo */
+  gap: 30px;
+}
+
+.imagens-bebidas img {
+  width: 600px;      /* mesmo tamanho */
+  height: 300px;     /* formato retangular */
+  object-fit: cover; /* não distorce */
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+
+    .container-doces,
+    .container-bebidas,
+    .container-salgados {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .imagens-doces,
+    .imagens-bebidas,
+    .imagens-salgados {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .imagens-doces img,
+    .imagens-bebidas img,
+    .imagens-salgados img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 8px;
+    }
+
+    .coluna-cardapios,
+    .coluna-cardapiosBebidas,
+    .coluna-cardapiosSalgados {
+        width: 100%;
+        padding: 0;
+    }
+
+    .cardapio-lista, .cardapio-lista2, .cardapio-lista3,
+    .cardapio-listaBebidas, .cardapio-listaBebidas2, .cardapio-listaBebidas3,
+    .cardapio-listaSalgados, .cardapio-listaSalgados2, .cardapio-listaSalgados3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    header .logo {
+        margin-bottom: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .sobre img {
+        width: 100%;
+        margin-top: 20px;
+        order: -1;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .button {
+        width: 100%;
+    }
+}
+/*fim*/
