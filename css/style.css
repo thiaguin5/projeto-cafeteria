@@ -226,7 +226,7 @@ h1{
     margin-top: 10px;
 }
 
-/* Layout Cardápio de Doces */
+/* Cardapio de Doce*/
 .container-doces {
     display: flex;
     justify-content: center;
@@ -346,3 +346,137 @@ h1{
     flex-direction: column;
     gap: 95px;
 }
+/* CArdapio de Salgados */
+.container-salgados {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardapio-listaSalgados {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardapio-listaSalgados h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-listaSalgados ul {
+    list-style: none;
+}
+
+.cardapio-listaSalgados li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.cardapio-listaSalgados .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.cardapio-listaSalgados2 {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardapio-listaSalgados2 h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-listaSalgados2 ul {
+    list-style: none;
+}
+
+.cardapio-listaSalgados2 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.cardapio-listaSalgados2 .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.cardapio-listaSalgados3 {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.cardapio-listaSalgados3 h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-listaSalgados3 ul {
+    list-style: none;
+}
+
+.cardapio-listaSalgados3 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+    
+}
+
+.cardapio-listaSalgados3 .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.coluna-cardapiosSalgados {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+.imagens-salgados {
+  display: flex;
+  flex-direction: column; /* uma em cima da outra */
+  align-items: flex-start; /* lado esquerdo */
+  gap: 30px;
+}
+
+.imagens-salgados img {
+  width: 600px;      /* mesmo tamanho */
+  height: 300px;     /* formato retangular */
+  object-fit: cover; /* não distorce */
+  border-radius: 10px;
+}
+
