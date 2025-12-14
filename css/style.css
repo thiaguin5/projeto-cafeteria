@@ -104,6 +104,12 @@ nav a:hover {
     gap: 30px;
     flex-wrap: wrap; /* Permite que os itens quebrem linha em telas menores */
 }
+.doces {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha em telas menores */
+}
 
 .button {
     width: 300px;
@@ -199,4 +205,144 @@ footer {
     text-align: center;
     background: #eee;
     margin-top: 40px;
+}
+
+.imagens-doces {
+  display: flex;
+  flex-direction: column; /* uma em cima da outra */
+  align-items: flex-start; /* lado esquerdo */
+  gap: 30px;
+}
+
+.imagens-doces img {
+  width: 600px;      /* mesmo tamanho */
+  height: 300px;     /* formato retangular */
+  object-fit: cover; /* não distorce */
+  border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Layout Cardápio de Doces */
+.container-doces {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardapio-lista {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardapio-lista h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-lista ul {
+    list-style: none;
+}
+
+.cardapio-lista li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.cardapio-lista .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.cardapio-lista2 {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardapio-lista2 h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-lista2 ul {
+    list-style: none;
+}
+
+.cardapio-lista2 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.cardapio-lista2 .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.cardapio-lista3 {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.cardapio-lista3 h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.cardapio-lista3 ul {
+    list-style: none;
+}
+
+.cardapio-lista3 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+    
+}
+
+.cardapio-lista3 .preco {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.coluna-cardapios {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
 }
