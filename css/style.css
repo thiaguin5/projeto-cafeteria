@@ -118,6 +118,8 @@ nav a:hover {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: transform 0.3s ease; /* Efeito visual ao passar o mouse */
+    text-decoration: none;
+    color: inherit;
 }
 .button-cafe img { /* Correção: aplica estilo à imagem, não ao container */
     width: 100%;
@@ -145,6 +147,8 @@ nav a:hover {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
 }
 .button-paes img {
     width: 100%;
@@ -172,6 +176,8 @@ nav a:hover {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
 }
 .button-doces img {
     width: 100%;
@@ -812,5 +818,7 @@ h1{
 #btn-limpar-carrinho:hover {
   background-color: #a71d2a;
 }
+
+
 
 /*fim*/
