@@ -765,4 +765,52 @@ h1{
         width: 100%;
     }
 }
+
+/* Botão de Comprar */
+.btn-comprar {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-left: 10px;
+}
+.btn-comprar:hover {
+  background-color: #218838;
+}
+
+/* Botão do Carrinho */
+#btn-carrinho {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#btn-carrinho:hover {
+  background-color: #0056b3;
+}
+
+/* Botão Limpar Carrinho */
+#btn-limpar-carrinho {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-left: 10px;
+}
+#btn-limpar-carrinho:hover {
+  background-color: #a71d2a;
+}
+
 /*fim*/

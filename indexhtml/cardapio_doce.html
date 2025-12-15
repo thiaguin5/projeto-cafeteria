@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <button id="btn-carrinho">
+            🛒 Carrinho (<span id="qtd-carrinho">0</span>)
+        </button>
+
+    <button id="btn-limpar-carrinho">Limpar Carrinho</button>
+    
     <h1>Cardápio de Doces</h1>
     <div class="container-doces">
         <div class="imagens-doces">
@@ -17,19 +23,22 @@
 
         <div class="coluna-cardapios">
             <div class="cardapio-lista">
-                <h2>Nossos Bolos</h2>
+                <h2>Nossas Fatias de Bolos</h2>
                 <ul>
                     <li>
                         <span class="nome">Bolo de Cenoura com Chocolate</span>
-                        <span class="preco">R$ 11,90</span>
+                        <span class="preco">R$ 11,99</span>
+                        <button class="btn-comprar" data-produto="Bolo de cenoura com chocolate" data-preco="11.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Bolo de Fubá (unid.)</span>
-                        <span class="preco">R$ 10,50</span>
+                        <span class="preco">R$ 8,50</span>
+                        <button class="btn-comprar" data-produto="Bolo de fubá" data-preco="8.50">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Bolo de Banana com Nutella</span>
-                        <span class="preco">R$ 15,90</span>
+                        <span class="preco">R$ 15,99</span>
+                        <button class="btn-comprar" data-produto="Bolo de banana com Nutella" data-preco="15.99">Comprar</button>
                     </li>
                 </ul>
             </div>
@@ -38,15 +47,18 @@
                 <ul>
                     <li>
                         <span class="nome">Brigadeiro Gourmet (unid.)</span>
-                        <span class="preco">R$ 1,99</span>
+                        <span class="preco">R$ 2,00</span>
+                        <button class="btn-comprar" data-produto="Brigadeiro gourmet" data-preco="2.00">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Beijinho Gourmet (unid.)</span>
-                        <span class="preco">R$ 1,99</span>
+                        <span class="preco">R$ 2,00</span>
+                        <button class="btn-comprar" data-produto="Beijinho gourmet" data-preco="2.00">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Brigadeiro de chocolate Branco e Nutella (unid.)</span>
-                        <span class="preco">R$ 2,90</span>
+                        <span class="preco">R$ 5,00</span>
+                        <button class="btn-comprar" data-produto="Brigadeiro de chocolate branco e Nutella" data-preco="5.00">Comprar</button>
                     </li>
                 </ul>
             </div>
@@ -55,19 +67,24 @@
                 <ul>
                     <li>
                         <span class="nome">Torta de Nutella (unid.)</span>
-                        <span class="preco">R$ 16,90</span>
+                        <span class="preco">R$ 16,99</span>
+                        <button class="btn-comprar" data-produto="Torta de Nutella" data-preco="16.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Torta de Morango (unid.)</span>
                         <span class="preco">R$ 15,50</span>
+                        <button class="btn-comprar" data-produto="Torta de morango" data-preco="15.50">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Torta de Limão (unid.)</span>
-                        <span class="preco">R$ 14,90</span>
+                        <span class="preco">R$ 14,99</span>
+                        <button class="btn-comprar" data-produto="Torta de limão" data-preco="14.99">Comprar</button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
+    <script src="../scripts/produtos.js"></script>
 </body>
 </html>

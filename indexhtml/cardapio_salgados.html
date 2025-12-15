@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <button id="btn-carrinho">
+            🛒 Carrinho (<span id="qtd-carrinho">0</span>)
+        </button>
+        
+    <button id="btn-limpar-carrinho">Limpar Carrinho</button>
+
     <h1>Cardápio de Salgados</h1>
     <div class="container-salgados">
         <div class="imagens-salgados">
@@ -22,14 +28,17 @@
                     <li>
                         <span class="nome">Croissant (unid.)</span>
                         <span class="preco">R$ 9,50</span>
+                        <button class="btn-comprar" data-produto="Croissant" data-preco="9.50">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Folhado de salsicha (unid.)</span>
                         <span class="preco">R$ 7,99</span>
+                        <button class="btn-comprar" data-produto="Folhado de salsicha" data-preco="7.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Folhado de presunto e queijo (unid.)</span>
-                        <span class="preco">R$ 8,99</span>
+                        <span class="preco">R$ 9,99</span>
+                        <button class="btn-comprar" data-produto="Folhado de presunto e queijo" data-preco="9.99">Comprar</button>
                     </li>
                 </ul>
             </div>
@@ -39,14 +48,17 @@
                     <li>
                         <span class="nome">Esfiha (unid.)</span>
                         <span class="preco">R$ 6,99</span>
+                        <button class="btn-comprar" data-produto="Esfiha" data-preco="6.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Empada (unid.)</span>
-                        <span class="preco">R$ 5,90</span>
+                        <span class="preco">R$ 5,99</span>
+                        <button class="btn-comprar" data-produto="Empada" data-preco="5.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Enroladinho de salsicha (unid.)</span>
-                        <span class="preco">R$ 6,90</span>
+                        <span class="preco">R$ 6,99</span>
+                        <button class="btn-comprar" data-produto="Enroladinho de salsicha" data-preco="6.99">Comprar</button>
                     </li>
                 </ul>
             </div>
@@ -56,18 +68,23 @@
                     <li>
                         <span class="nome">Coxinha (unid.)</span>
                         <span class="preco">R$ 3,99</span>
+                        <button class="btn-comprar" data-produto="Coxinha" data-preco="3.99">Comprar</button>
                     </li>
                     <li>
-                        <span class="nome">kibe (unid.)</span>
+                        <span class="nome">Kibe (unid.)</span>
                         <span class="preco">R$ 4,99</span>
+                        <button class="btn-comprar" data-produto="Kibe" data-preco="4.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Pastelzinho (sabor sortido) (unid.)</span>
-                        <span class="preco">R$ 5,90</span>
+                        <span class="preco">R$ 5,99</span>
+                        <button class="btn-comprar" data-produto="Pastelzinho (sabor sortido)" data-preco="5.99">Comprar</button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
+    <script src="../scripts/produtos.js"></script>
 </body>
 </html>

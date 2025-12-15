@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <button id="btn-carrinho">
+            🛒 Carrinho (<span id="qtd-carrinho">0</span>)
+        </button>
+
+    <button id="btn-limpar-carrinho">Limpar Carrinho</button>
+
     <h1>Cardápio de Bebidas</h1>
     <div class="container-bebidas">
         <div class="imagens-bebidas">
@@ -22,14 +28,17 @@
                     <li>
                         <span class="nome">Coca-Cola lata (350 ml)(unid.)</span>
                         <span class="preco">R$ 6,00</span>
+                        <button class="btn-comprar" data-produto="Coca-Cola lata" data-preco="6.00">Comprar</button>
                     </li>
                     <li>
-                        <span class="nome">Suco de laranja (300 ml) (unid.)</span>
+                        <span class="nome">Suco de laranja (300ml)</span>
                         <span class="preco">R$ 8,00</span>
+                        <button class="btn-comprar" data-produto="Suco de laranja (300ml)" data-preco="8.00">Comprar</button>
                     </li>
                     <li>
-                        <span class="nome">Guaraná Antarctica lata (350 ml) (unid.)</span>
+                        <span class="nome">Guaraná Antarctica lata</span>
                         <span class="preco">R$ 6,00</span>
+                        <button class="btn-comprar" data-produto="Guaraná Antártica lata" data-preco="6.00">Comprar</button>
                     </li>
                 </ul>
             </div>
@@ -37,16 +46,19 @@
                 <h2>Bebidas alcoólicas</h2>
                 <ul>
                     <li>
-                        <span class="nome">Cerveja Skol lata (350 ml) (unid.)</span>
-                        <span class="preco">R$ 6,50</span>
+                        <span class="nome">Cerveja preta Itaipava lata</span>
+                        <span class="preco">R$ 9,00</span>
+                        <button class="btn-comprar" data-produto="Cerveja preta Itaipava lata" data-preco="9.00">Comprar</button>
                     </li>
                     <li>
-                        <span class="nome">Cerveja Brahma lata (350 ml) (unid.)</span>
+                        <span class="nome">Cerveja Brahma lata</span>
                         <span class="preco">R$ 6,50</span>
+                        <button class="btn-comprar" data-produto="Cerveja Brahma lata" data-preco="6.50">Comprar</button>
                     </li>
                     <li>
-                        <span class="nome">Cerveja Heineken long neck (330 ml)(unid.)</span>
+                        <span class="nome">Cerveja Heineken longneck</span>
                         <span class="preco">R$ 10,00</span>
+                        <button class="btn-comprar" data-produto="Cerveja Heineken longneck" data-preco="10.00">Comprar</button>
                     </li>
                 </ul>
             </div>
@@ -56,19 +68,24 @@
                     <li>
                         <span class="nome">Café expresso (unid.)</span>
                         <span class="preco">R$ 5,00</span>
+                        <button class="btn-comprar" data-produto="Café expresso" data-preco="5.00">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Café com leite (unid.)</span>
                         <span class="preco">R$ 5,99</span>
+                        <button class="btn-comprar" data-produto="Café com leite" data-preco="5.99">Comprar</button>
                     </li>
                     <li>
                         <span class="nome">Chocolate quente (unid.)</span>
                         <span class="preco">R$ 8,00</span>
+                        <button class="btn-comprar" data-produto="Chocolate quente" data-preco="8.00">Comprar</button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
+    <script src="../scripts/produtos.js"></script>
 </body>
 </html>
 
