@@ -55,3 +55,5 @@ document.getElementById('btn-limpar-carrinho').addEventListener('click', functio
 
 // Inicializa a tela do carrinho
 renderCarrinho();
+
+/*http://127.0.0.1:5500/indexhtml/carrinho.html*/
