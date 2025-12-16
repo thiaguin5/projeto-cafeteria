@@ -32,7 +32,7 @@ document.getElementById('btn-carrinho').addEventListener('click', function() {
   } else {
     let lista = carrinho.map(item => `${item.produto} - R$ ${item.preco.toFixed(2)}`).join('\n');
     let total = carrinho.reduce((soma, item) => soma + item.preco, 0);
-    alert('Itens no carrinho:\n' + lista + `\n\nTotal: R$ ${total.toFixed(2)}`);
+    alert('Itens no carrinho (PARA REALIZAR A SUA COMPRA, RETORNE à PÁGINA HOME E CLIQUE EM "CARRINHO"):\n' + lista + `\n\nTotal: R$ ${total.toFixed(2)}`);
   }
 });
 
