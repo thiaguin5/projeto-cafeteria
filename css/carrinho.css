@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+#lista-carrinho {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-carrinho li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+}
+
+button {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btn-comprar {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#btn-comprar:hover {
+  background-color: #218838;
+}
+
+#btn-limpar-carrinho {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#btn-limpar-carrinho:hover {
+  background-color: #a71d2a;
+}
